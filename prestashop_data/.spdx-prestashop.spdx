@@ -1,0 +1,3059 @@
+{
+    "SPDXID": "SPDXRef-prestashop",
+    "spdxVersion": "SPDX-2.3",
+    "creationInfo": {
+        "created": "2023-03-30T14:45:50.492Z",
+        "creators": [
+            "Organization: VMware, Inc."
+        ]
+    },
+    "name": "SPDX document for PrestaShop 8.0.2",
+    "dataLicense": "CC0-1.0",
+    "documentDescribes": [
+        "SPDXRef-prestashop"
+    ],
+    "documentNamespace": "prestashop-8.0.2",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-prestashop",
+            "name": "PrestaShop",
+            "versionInfo": "8.0.2",
+            "downloadLocation": "https://github.com/PrestaShop/PrestaShop/archive/refs/tags/8.0.2.zip",
+            "licenseConcluded": "OSL-3.0",
+            "licenseDeclared": "OSL-3.0",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:prestashop:prestashop:8.0.2:*:*:*:*:*:*:*"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-Package-1200367240393886",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/doctrine/inflector@2.0.4",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "doctrine/inflector",
+            "versionInfo": "2.0.4",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-14aebcf584454807",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/ps_currencyselector@v2.0.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/ps_currencyselector",
+            "versionInfo": "v2.0.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-14bc917d35682175",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/swiftmailer/swiftmailer@v6.3.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "swiftmailer/swiftmailer",
+            "versionInfo": "v6.3.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-166120dfac0f235f",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/matthiasmullie/minify@1.3.69",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "matthiasmullie/minify",
+            "versionInfo": "1.3.69",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-16d991da94a766b4",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/ps_contactinfo@v3.3.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/ps_contactinfo",
+            "versionInfo": "v3.3.2",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-1795ce8c9a7d057f",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/ps_featuredproducts@v2.1.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/ps_featuredproducts",
+            "versionInfo": "v2.1.2",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-19348ebd42316fc5",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/composer/pcre@1.0.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "composer/pcre",
+            "versionInfo": "1.0.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-1a44b62015b7741f",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/autoindex@v2.0.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/autoindex",
+            "versionInfo": "v2.0.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-1f722ef8c9a20b04",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/ps_customeraccountlinks@v3.1.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/ps_customeraccountlinks",
+            "versionInfo": "v3.1.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-206049366b96a7ef",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/doctrine/instantiator@1.4.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "doctrine/instantiator",
+            "versionInfo": "1.4.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-206228eaae0683bb",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/symfony@v4.4.49",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/symfony",
+            "versionInfo": "v4.4.49",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-2083b6ddb4aa5feb",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/statsstock@v2.0.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/statsstock",
+            "versionInfo": "v2.0.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-21a0abbc7d83ee37",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/dashactivity@v2.0.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/dashactivity",
+            "versionInfo": "v2.0.2",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-2323d2b2a3cdc6cc",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/monolog-bundle@v3.8.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/monolog-bundle",
+            "versionInfo": "v3.8.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-23bbd7291e6f5a24",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/phpoffice/phpspreadsheet@1.19.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "phpoffice/phpspreadsheet",
+            "versionInfo": "1.19.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-24cce5a52509317f",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/classic@2.0.8",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/classic",
+            "versionInfo": "2.0.8",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-25eaa77e9e22188a",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/defuse/php-encryption@v2.3.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "defuse/php-encryption",
+            "versionInfo": "v2.3.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-2650de54a5baf8b0",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/event-dispatcher@v5.4.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/event-dispatcher",
+            "versionInfo": "v5.4.3",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-2666bfc10860d3c3",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-php73@v1.27.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/polyfill-php73",
+            "versionInfo": "v1.27.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-26f2f7f4a3bf9826",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/ps_dataprivacy@v2.1.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/ps_dataprivacy",
+            "versionInfo": "v2.1.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-27af0d50cb0c4e71",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/pagesnotfound@v2.0.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/pagesnotfound",
+            "versionInfo": "v2.0.2",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-27f4aa217193d4b7",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/statsbestmanufacturers@v2.0.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/statsbestmanufacturers",
+            "versionInfo": "v2.0.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-28d04e00ea0f2e6c",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/monolog/monolog@1.27.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "monolog/monolog",
+            "versionInfo": "1.27.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-29a02220626029b5",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-iconv@v1.27.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/polyfill-iconv",
+            "versionInfo": "v1.27.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-2a796dcdcec33569",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/ps_imageslider@v3.1.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/ps_imageslider",
+            "versionInfo": "v3.1.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-2b1d328c15313a38",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/psr/container@1.1.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "psr/container",
+            "versionInfo": "1.1.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-2bea9b34f47fb3e0",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/statscatalog@v2.0.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/statscatalog",
+            "versionInfo": "v2.0.2",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-2c700a400d0c731e",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-intl-normalizer@v1.25.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/polyfill-intl-normalizer",
+            "versionInfo": "v1.25.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-2f68161ab6a4702b",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/statsproduct@v2.1.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/statsproduct",
+            "versionInfo": "v2.1.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-3074470f9ad8c211",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/psr/link@1.0.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "psr/link",
+            "versionInfo": "1.0.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-3186aeeb0d9f97e0",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/doctrine/dbal@2.13.8",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "doctrine/dbal",
+            "versionInfo": "2.13.8",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-31cb237b17c2c69a",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/bjeavons/zxcvbn-php@1.3.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "bjeavons/zxcvbn-php",
+            "versionInfo": "1.3.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-334c1ec5def0b670",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/league/tactician@v1.1.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "league/tactician",
+            "versionInfo": "v1.1.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-35f456cd44dcb6a6",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/pear/archive_tar@1.4.14",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "pear/archive_tar",
+            "versionInfo": "1.4.14",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-3629dc29081820a8",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/gsitemap@v4.2.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/gsitemap",
+            "versionInfo": "v4.2.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-36708837bcf8e92a",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/tubalmartin/cssmin@v4.1.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "tubalmartin/cssmin",
+            "versionInfo": "v4.1.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-3dade64f5e9eeded",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/statsbestproducts@v2.0.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/statsbestproducts",
+            "versionInfo": "v2.0.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-3de08625e9a6b32b",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/statscheckup@v2.0.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/statscheckup",
+            "versionInfo": "v2.0.2",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-3e6fc89a223086d6",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/willdurand/jsonp-callback-validator@v1.1.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "willdurand/jsonp-callback-validator",
+            "versionInfo": "v1.1.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-3f15ad6b9b9819b8",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/ps_socialfollow@v2.2.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/ps_socialfollow",
+            "versionInfo": "v2.2.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-3faafd006336f91f",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-php81@v1.25.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/polyfill-php81",
+            "versionInfo": "v1.25.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-4011f11ed207c370",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-intl-grapheme@v1.25.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/polyfill-intl-grapheme",
+            "versionInfo": "v1.25.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-40b27e6ce4c497e3",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/blockreassurance@v5.1.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/blockreassurance",
+            "versionInfo": "v5.1.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-42debcc591f841e7",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/php-cs-fixer/diff@v2.0.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "php-cs-fixer/diff",
+            "versionInfo": "v2.0.2",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-4584c9c6bfb94c85",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/filesystem@v5.4.6",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/filesystem",
+            "versionInfo": "v5.4.6",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-4590b999a3f32211",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/maennchen/zipstream-php@2.1.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "maennchen/zipstream-php",
+            "versionInfo": "2.1.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-45f14b810e0c7a08",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/deprecation-contracts@v2.5.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/deprecation-contracts",
+            "versionInfo": "v2.5.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-45f1accf5fec24b9",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/statspersonalinfos@v2.0.4",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/statspersonalinfos",
+            "versionInfo": "v2.0.4",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-48299505bb98b635",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/curl/curl@2.3.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "curl/curl",
+            "versionInfo": "2.3.3",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-49294a18289e2030",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/league/tactician-container@2.0.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "league/tactician-container",
+            "versionInfo": "2.0.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-4a5903e7db8f87a3",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/mrclay/jsmin-php@2.4.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "mrclay/jsmin-php",
+            "versionInfo": "2.4.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-4ac4997a9b9f5765",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/guzzlehttp/guzzle@7.5.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "guzzlehttp/guzzle",
+            "versionInfo": "7.5.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-4b16b23a34b96af6",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/ircmaxell/random-lib@v1.2.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "ircmaxell/random-lib",
+            "versionInfo": "v1.2.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-4bc48ed06d4c0a20",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/markbaker/complex@3.0.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "markbaker/complex",
+            "versionInfo": "3.0.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-4c3e9d42c74211e",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/psr/http-factory@1.0.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "psr/http-factory",
+            "versionInfo": "1.0.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-4ce97c98bcec5375",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/ps_themecusto@v1.2.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/ps_themecusto",
+            "versionInfo": "v1.2.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-4e3f3f15bda8fad",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/ps_checkpayment@v2.0.5",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/ps_checkpayment",
+            "versionInfo": "v2.0.5",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-503d9d04708060b5",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/doctrine/common@3.3.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "doctrine/common",
+            "versionInfo": "3.3.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-50f59733b855bfc6",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/twig/twig@v3.4.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "twig/twig",
+            "versionInfo": "v3.4.3",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-5166da196d556e44",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/beberlei/doctrineextensions@v1.3.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "beberlei/doctrineextensions",
+            "versionInfo": "v1.3.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-52297c84001391ed",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-ctype@v1.25.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/polyfill-ctype",
+            "versionInfo": "v1.25.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-528e15c9248f9dfb",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/nikic/php-parser@v4.13.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "nikic/php-parser",
+            "versionInfo": "v4.13.2",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-5337e1861de80c35",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/statsbestvouchers@v2.0.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/statsbestvouchers",
+            "versionInfo": "v2.0.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-54a091dc26a5d80e",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/mrclay/props-dic@3.0.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "mrclay/props-dic",
+            "versionInfo": "3.0.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-5560d92139a7ee9b",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/process@v5.4.5",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/process",
+            "versionInfo": "v5.4.5",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-576ff23708656c3d",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/ircmaxell/password-compat@v1.0.4",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "ircmaxell/password-compat",
+            "versionInfo": "v1.0.4",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-583c0628419093e",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/ps_shoppingcart@v2.0.5",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/ps_shoppingcart",
+            "versionInfo": "v2.0.5",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-585d555c139f736a",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/ps_languageselector@v2.1.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/ps_languageselector",
+            "versionInfo": "v2.1.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-5ddd465eab5e3241",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/statsregistrations@v2.0.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/statsregistrations",
+            "versionInfo": "v2.0.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-5df4719bb61f30ba",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/league/tactician-logger@v0.10.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "league/tactician-logger",
+            "versionInfo": "v0.10.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-5e9e179c44c21af3",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/dashtrends@v2.0.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/dashtrends",
+            "versionInfo": "v2.0.3",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-5f3eb5cd311372e5",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/laminas-code-lts@dev-4.5-lts",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/laminas-code-lts",
+            "versionInfo": "dev-4.5-lts",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-5f50ccf1caf7287b",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/guzzlehttp/psr7@2.4.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "guzzlehttp/psr7",
+            "versionInfo": "2.4.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-5f7e87d6915eb4a6",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/friendsofphp/php-cs-fixer@v3.4.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "friendsofphp/php-cs-fixer",
+            "versionInfo": "v3.4.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-62212015a9a7b5ef",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/doctrine/collections@v1.4.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "doctrine/collections",
+            "versionInfo": "v1.4.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-623bae3ea161a0cc",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/doctrine/event-manager@1.2.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "doctrine/event-manager",
+            "versionInfo": "1.2.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-6439b8504975f3f7",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/statsdata@v2.1.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/statsdata",
+            "versionInfo": "v2.1.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-66a1a5586e2f12cf",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/psr/http-message@1.0.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "psr/http-message",
+            "versionInfo": "1.0.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-66ca545915d21aa1",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/pear/console_getopt@v1.4.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "pear/console_getopt",
+            "versionInfo": "v1.4.3",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-68851a43de61e0d0",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/friendsofsymfony/jsrouting-bundle@2.8.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "friendsofsymfony/jsrouting-bundle",
+            "versionInfo": "2.8.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-6a31900341830881",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/event-dispatcher-contracts@v2.5.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/event-dispatcher-contracts",
+            "versionInfo": "v2.5.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-6b439c693cc751d0",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/header-stamp@v2.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/header-stamp",
+            "versionInfo": "v2.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-6d5664d8be203401",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/finder@v5.4.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/finder",
+            "versionInfo": "v5.4.3",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-6dfa6c53b658a374",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/psr/log@1.1.4",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "psr/log",
+            "versionInfo": "1.1.4",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-6fd28ebd14b84534",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/markbaker/matrix@3.0.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "markbaker/matrix",
+            "versionInfo": "3.0.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-7280c1dc994463ed",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/guzzlehttp/promises@1.5.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "guzzlehttp/promises",
+            "versionInfo": "1.5.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-72a0501ae9b72281",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/dashproducts@v2.1.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/dashproducts",
+            "versionInfo": "v2.1.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-74b20ae7a7fed283",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/ps_cashondelivery@v2.0.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/ps_cashondelivery",
+            "versionInfo": "v2.0.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-76d5b3bff76e9920",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/ps_sharebuttons@v2.1.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/ps_sharebuttons",
+            "versionInfo": "v2.1.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-7709c8d8afc014d5",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/pimple/pimple@v3.5.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "pimple/pimple",
+            "versionInfo": "v3.5.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-7811897997f0676d",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/ps_banner@v2.1.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/ps_banner",
+            "versionInfo": "v2.1.2",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-7c2601eee569d275",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/statscarrier@v2.0.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/statscarrier",
+            "versionInfo": "v2.0.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-7c681c97fbed7584",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/smarty/smarty@v4.2.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "smarty/smarty",
+            "versionInfo": "v4.2.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-7ce3122aac4ef1cb",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/friendsofphp/proxy-manager-lts@v1.0.10",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "friendsofphp/proxy-manager-lts",
+            "versionInfo": "v1.0.10",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-7ebe5a1cbd410fee",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/ps_customtext@v4.2.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/ps_customtext",
+            "versionInfo": "v4.2.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-7ed477d43ca3c9c6",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/ps_emailsubscription@v2.7.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/ps_emailsubscription",
+            "versionInfo": "v2.7.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-81b1c4f2f1311200",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/squizlabs/php_codesniffer@3.6.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "squizlabs/php_codesniffer",
+            "versionInfo": "3.6.2",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-844edb5b039a505c",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/contactform@v4.4.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/contactform",
+            "versionInfo": "v4.4.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-865f5c74936b39f4",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/tecnickcom/tcpdf@6.4.4",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "tecnickcom/tcpdf",
+            "versionInfo": "6.4.4",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-86b819f56e27c6ec",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/maxmind/web-service-common@v0.9.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "maxmind/web-service-common",
+            "versionInfo": "v0.9.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-87f0e4f68e13d483",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/psr/simple-cache@1.0.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "psr/simple-cache",
+            "versionInfo": "1.0.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-891b2b543246b684",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/ps_googleanalytics@v4.1.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/ps_googleanalytics",
+            "versionInfo": "v4.1.2",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-894b7ec067b5c15",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/sensio/framework-extra-bundle@v5.6.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "sensio/framework-extra-bundle",
+            "versionInfo": "v5.6.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-89c30cd13ac83eb7",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/contracts@v1.1.13",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/contracts",
+            "versionInfo": "v1.1.13",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-8a7271e60555ecd2",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/ps_bestsellers@v1.0.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/ps_bestsellers",
+            "versionInfo": "v1.0.3",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-8cdaa01827954c5c",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-php80@v1.27.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/polyfill-php80",
+            "versionInfo": "v1.27.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-919d6e5460205088",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/psgdpr@v1.4.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/psgdpr",
+            "versionInfo": "v1.4.2",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-931ca6ba62aa6302",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/stopwatch@v5.4.5",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/stopwatch",
+            "versionInfo": "v5.4.5",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-93a8a49f1656f4ab",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/doctrine/orm@2.12.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "doctrine/orm",
+            "versionInfo": "2.12.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-93ce2b449956463b",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/greenlion/php-sql-parser@v4.5.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "greenlion/php-sql-parser",
+            "versionInfo": "v4.5.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-9696ad164038335",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/ps_specials@v1.0.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/ps_specials",
+            "versionInfo": "v1.0.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-9712daa3ab20d22d",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/pelago/emogrifier@v5.0.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "pelago/emogrifier",
+            "versionInfo": "v5.0.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-977466ab785159dd",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/composer/semver@3.3.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "composer/semver",
+            "versionInfo": "3.3.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-9fb2f8ae7457aa9",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/blockwishlist@v2.1.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/blockwishlist",
+            "versionInfo": "v2.1.2",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-9fc8cc4065b9b4e3",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/matthiasmullie/path-converter@1.1.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "matthiasmullie/path-converter",
+            "versionInfo": "1.1.3",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-a04fae1237d685c6",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/ps_mainmenu@v2.3.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/ps_mainmenu",
+            "versionInfo": "v2.3.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-a265c9266ca0a690",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/ps_categoryproducts@v1.0.4",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/ps_categoryproducts",
+            "versionInfo": "v1.0.4",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-a2e23683909f34bc",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/tijsverkoyen/css-to-inline-styles@2.2.5",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "tijsverkoyen/css-to-inline-styles",
+            "versionInfo": "2.2.5",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-a41d828f7e4b347d",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/ps_categorytree@v2.0.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/ps_categorytree",
+            "versionInfo": "v2.0.3",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-a6cd7566baa2f2b1",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/mrclay/minify@3.0.11",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "mrclay/minify",
+            "versionInfo": "3.0.11",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-a825b9df49e425a8",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/composer/ca-bundle@1.3.4",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "composer/ca-bundle",
+            "versionInfo": "1.3.4",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-a85b4ea5c1ab59c0",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/statsbestcustomers@v2.0.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/statsbestcustomers",
+            "versionInfo": "v2.0.3",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-ac578b7a9dfd2b28",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/statsbestcategories@v2.0.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/statsbestcategories",
+            "versionInfo": "v2.0.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-ae07a29757b017d",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/paragonie/random_compat@v9.99.100",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "paragonie/random_compat",
+            "versionInfo": "v9.99.100",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-af228d8cffa4010",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/console@v5.4.5",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/console",
+            "versionInfo": "v5.4.5",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-b0a0d465b3ab9726",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/doctrine/annotations@1.13.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "doctrine/annotations",
+            "versionInfo": "1.13.3",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-b281891d33655e98",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/doctrine/deprecations@v0.5.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "doctrine/deprecations",
+            "versionInfo": "v0.5.3",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-b4e2a868d734244d",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/soundasleep/html2text@0.5.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "soundasleep/html2text",
+            "versionInfo": "0.5.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-b5059888d640e0c4",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/php-dev-tools@v4.2.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/php-dev-tools",
+            "versionInfo": "v4.2.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-b6e254b2ceb5b82c",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/incenteev/composer-parameter-handler@v2.1.5",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "incenteev/composer-parameter-handler",
+            "versionInfo": "v2.1.5",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-b702e36241302202",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/jakeasmith/http_build_url@1.0.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "jakeasmith/http_build_url",
+            "versionInfo": "1.0.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-b7f1e73c49819c82",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/ps_linklist@v5.0.5",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/ps_linklist",
+            "versionInfo": "v5.0.5",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-b8ddbd517b426be1",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/productcomments@v5.0.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/productcomments",
+            "versionInfo": "v5.0.2",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-b8f5857d09d8b7ac",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-intl-idn@v1.27.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/polyfill-intl-idn",
+            "versionInfo": "v1.27.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-ba00618a0cce1689",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/circuit-breaker@v4.0.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/circuit-breaker",
+            "versionInfo": "v4.0.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-bb40eaf4d81dd543",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/doctrine/lexer@1.2.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "doctrine/lexer",
+            "versionInfo": "1.2.3",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-bb6b21face5a62b",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-intl-icu@v1.27.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/polyfill-intl-icu",
+            "versionInfo": "v1.27.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-bd4dbbc9eba63d37",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/gridhtml@v2.0.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/gridhtml",
+            "versionInfo": "v2.0.2",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-bd81eb70a2dc1f15",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/mobiledetect/mobiledetectlib@2.8.41",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "mobiledetect/mobiledetectlib",
+            "versionInfo": "2.8.41",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-bda022fcdd1b5b84",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/doctrine/persistence@3.0.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "doctrine/persistence",
+            "versionInfo": "3.0.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-c065c869f5a13da5",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/graphnvd3@v2.0.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/graphnvd3",
+            "versionInfo": "v2.0.2",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-c0cf5da5f4cc53e2",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/marcusschwarz/lesserphp@v0.5.5",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "marcusschwarz/lesserphp",
+            "versionInfo": "v0.5.5",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-c30f935805be4bfa",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/cssjanus/cssjanus@v2.1.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "cssjanus/cssjanus",
+            "versionInfo": "v2.1.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-c42275ebec976f11",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/statsnewsletter@v2.0.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/statsnewsletter",
+            "versionInfo": "v2.0.3",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-c4529452c31dbc55",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/ps_faviconnotificationbo@v2.1.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/ps_faviconnotificationbo",
+            "versionInfo": "v2.1.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-c46e0163f1bb5b01",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/statsbestsuppliers@v2.0.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/statsbestsuppliers",
+            "versionInfo": "v2.0.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-c643e25b5f86e0b2",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/maxmind-db/reader@v1.11.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "maxmind-db/reader",
+            "versionInfo": "v1.11.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-c88eb3f9ed7c9561",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/translationtools-bundle@v5.0.4",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/translationtools-bundle",
+            "versionInfo": "v5.0.4",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-cc6d67f9eb3f945a",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/statssales@v2.1.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/statssales",
+            "versionInfo": "v2.1.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-cf0827bd44bbe8",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/myclabs/php-enum@1.7.7",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "myclabs/php-enum",
+            "versionInfo": "1.7.7",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-d01adece2e5b2f22",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/ircmaxell/security-lib@v1.1.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "ircmaxell/security-lib",
+            "versionInfo": "v1.1.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-d2b32645a553a9b",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/geoip2/geoip2@v2.4.5",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "geoip2/geoip2",
+            "versionInfo": "v2.4.5",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-d4081b663f4118ca",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/ps_newproducts@v1.0.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/ps_newproducts",
+            "versionInfo": "v1.0.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-d42f46a8f4ec8333",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/decimal@1.5.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/decimal",
+            "versionInfo": "1.5.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-d49773c422e29d95",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/doctrine/doctrine-bundle@2.6.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "doctrine/doctrine-bundle",
+            "versionInfo": "2.6.3",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-d5adef14989b7379",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/ralouphie/getallheaders@3.0.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "ralouphie/getallheaders",
+            "versionInfo": "3.0.3",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-d6fdcdf59b68c444",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/league/tactician-bundle@v1.3.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "league/tactician-bundle",
+            "versionInfo": "v1.3.2",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-d7720476b5f82092",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/ps_searchbar@v2.1.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/ps_searchbar",
+            "versionInfo": "v2.1.3",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-d7b5bc43a4c5e037",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/intervention/httpauth@3.0.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "intervention/httpauth",
+            "versionInfo": "3.0.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-d99b5af392b66a27",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/swiftmailer-bundle@v3.5.4",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/swiftmailer-bundle",
+            "versionInfo": "v3.5.4",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-d9cc515fac220be2",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/dashgoals@v2.0.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/dashgoals",
+            "versionInfo": "v2.0.2",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-d9d7c275000667e3",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/psr/http-client@1.0.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "psr/http-client",
+            "versionInfo": "1.0.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-db208557b74c3207",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/options-resolver@v5.4.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/options-resolver",
+            "versionInfo": "v5.4.3",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-db35234525006fd2",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-mbstring@v1.27.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/polyfill-mbstring",
+            "versionInfo": "v1.27.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-db83aa021c03465a",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/ps_distributionapiclient@v1.0.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/ps_distributionapiclient",
+            "versionInfo": "v1.0.2",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-dba643018ec6b8ef",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/egulias/email-validator@3.1.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "egulias/email-validator",
+            "versionInfo": "3.1.2",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-dde55962b9ab7b69",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/pear/pear-core-minimal@v1.10.11",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "pear/pear-core-minimal",
+            "versionInfo": "v1.10.11",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-de344899d45d1a27",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/composer/xdebug-handler@2.0.5",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "composer/xdebug-handler",
+            "versionInfo": "2.0.5",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-e0cc89a5fda596aa",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/service-contracts@v2.5.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/service-contracts",
+            "versionInfo": "v2.5.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-e2946ab72535876c",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/polyfill-php72@v1.27.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/polyfill-php72",
+            "versionInfo": "v1.27.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-e2f8666b452a492b",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/ezyang/htmlpurifier@dev-master",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "ezyang/htmlpurifier",
+            "versionInfo": "dev-master",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-e319615a6a2e0a0",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/doctrine/cache@2.1.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "doctrine/cache",
+            "versionInfo": "2.1.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-e47012a019ea1959",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/ps_crossselling@v2.0.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/ps_crossselling",
+            "versionInfo": "v2.0.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-e66fd4a5be95f95d",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/ps_brandlist@v1.0.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/ps_brandlist",
+            "versionInfo": "v1.0.3",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-e6d686c33200f3e",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/doctrine/sql-formatter@1.1.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "doctrine/sql-formatter",
+            "versionInfo": "1.1.2",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-e881e4af31ec64e4",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/ps_customersignin@v2.0.5",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/ps_customersignin",
+            "versionInfo": "v2.0.5",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-ea0a085ddf3db412",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/pear/pear_exception@v1.0.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "pear/pear_exception",
+            "versionInfo": "v1.0.2",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-ebd9196540d6540e",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/composer/installers@v1.12.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "composer/installers",
+            "versionInfo": "v1.12.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-ec7af91add534adf",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/ps_viewedproduct@v1.2.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/ps_viewedproduct",
+            "versionInfo": "v1.2.2",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-ece37675978a410c",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/symfony/string@v5.4.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "symfony/string",
+            "versionInfo": "v5.4.3",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-ee13ad62aad241e4",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/ps_facetedsearch@v3.8.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/ps_facetedsearch",
+            "versionInfo": "v3.8.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-ef26e1bdd01b8a81",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/ps_wirepayment@v2.1.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/ps_wirepayment",
+            "versionInfo": "v2.1.3",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-ef80c7512eb30d10",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/ps_supplierlist@v1.0.4",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/ps_supplierlist",
+            "versionInfo": "v1.0.4",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-f4fae1e420c8d7be",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/statsforecast@v2.0.4",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/statsforecast",
+            "versionInfo": "v2.0.4",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-f5921e9c70ff6022",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/psr/cache@1.0.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "psr/cache",
+            "versionInfo": "1.0.1",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-f71bbe4be94aad27",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/psr/event-dispatcher@1.0.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "psr/event-dispatcher",
+            "versionInfo": "1.0.0",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-f94773d938691289",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/martinlindhe/php-mb-helpers@0.1.7",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "martinlindhe/php-mb-helpers",
+            "versionInfo": "0.1.7",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-fcb68bfe879623af",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/statssearch@v2.0.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/statssearch",
+            "versionInfo": "v2.0.2",
+            "downloadLocation": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-ff7b41f99e363eba",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:composer/prestashop/ps_emailalerts@v2.3.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "prestashop/ps_emailalerts",
+            "versionInfo": "v2.3.3",
+            "downloadLocation": "NOASSERTION"
+        }
+    ],
+    "files": []
+}
