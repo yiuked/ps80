@@ -69,6 +69,7 @@ class ModuleController extends ModuleAbstractController
         $installedProducts = $moduleRepository->getList();
 
         $categories = $this->getCategories($modulesProvider, $installedProducts);
+
         $bulkActions = [
             'bulk-install' => $this->trans('Install', 'Admin.Actions'),
             'bulk-uninstall' => $this->trans('Uninstall', 'Admin.Actions'),
@@ -162,6 +163,7 @@ class ModuleController extends ModuleAbstractController
      */
     public function moduleAction(Request $request)
     {
+
         $action = $request->get('action');
 
         switch ($action) {

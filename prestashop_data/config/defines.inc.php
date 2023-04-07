@@ -25,9 +25,10 @@
  */
 
 /* Debug only */
-if (!defined('_PS_MODE_DEV_')) {
-define('_PS_MODE_DEV_', false);
-}
+//if (!defined('_PS_MODE_DEV_')) {
+//
+//}
+const _PS_MODE_DEV_ = true;
 /* Compatibility warning */
 if (!defined('_PS_DISPLAY_COMPATIBILITY_WARNING_')) {
 define('_PS_DISPLAY_COMPATIBILITY_WARNING_', false);
